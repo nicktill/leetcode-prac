@@ -1,5 +1,7 @@
 import java.util.*;
 
+//BFS (Breadth First Search Algorithm) 
+
 class Program {
   static class Node {
     String name;
