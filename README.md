@@ -1,4 +1,3 @@
 # Miscellaneous
-Widely used basic algorithms for Sorting & Searching. 
 
-Java & Python Implementation.
+Well known algorithms for sorting & searching with java & python implementation.
