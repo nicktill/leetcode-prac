@@ -1,2 +1,4 @@
 # Miscellaneous
-Random files used for searching and sorting data structures. Widely used basic algorithms both used in java and python. 
+Widely used basic algorithms for Sorting & Searching. 
+
+Java & Python Implementation.
