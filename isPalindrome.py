@@ -1,4 +1,4 @@
-#Nicholas Tillmann, Short isPalindrome in Python Algorithm.
+#Nicholas Tillmann, isPalindrome in Python Algorithm.
 def isListPalindrome(l):
     
     palindromeList = []
