@@ -1,4 +1,5 @@
 class Solution(object):
+#LC Medium
     def maxProduct(self, nums):
         #base check
         if len(nums) == 0:
@@ -15,3 +16,5 @@ class Solution(object):
             result = max(currMax, result)
             
         return result
+
+
