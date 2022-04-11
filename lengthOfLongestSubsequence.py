@@ -6,7 +6,7 @@ class Solution(object):
         for letters in s:
             if letters in currLongest: #if we already seen the letter
                 #i.e example string: aabcd
-                # currLongest = [a]
+                # currLongest = [a] (which is 1)
                 # we are on second index of a, and now we set the second index as starting point 
                 #since duplicate characters do not count as subsequence
                 currLongest = currLongest[currLongest.index(letters)+1:]  
