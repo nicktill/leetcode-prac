@@ -15,7 +15,6 @@
  def maxDepthAfterSplit(self, seq):
         seq = list(seq)
         depth = 1; 
-        #( ( ) ( ) )
         dictionary = []
         for x in seq:
             if x == '(': #increment depth 
