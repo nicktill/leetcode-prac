@@ -4,17 +4,18 @@
 #         self.val = val
 #         self.next = next
 #LC Easy https://leetcode.com/problems/reverse-linked-list/submissions/
+# concept is to go through list and convert next pointers to prevous pointers
+#ie, 1 -> 2 -> 3 -> 4 -> 5 would = 1 <- 2 <- 3 <- 4 <- 5 and then return it from last node
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        #concept is to go through list and convert next pointers to prevous pointers
-        #1->2->3->4->5 = 1<-2<-3<-4<-5 and then returning it from its last value as if its head 
         prev = None
         curr = head
         while curr:
             currNext = curr.next #saving next elem reference 
-            curr.next = prev #set node pointer next to previous, first one will be null () 
-            prev = curr 
+            curr.next = prev #set node pointer next to previous, by doing this to every node we reverse the list 
+            prev = curr #update prev to next list elem, 
             curr = currNext #using saved elem reference
+
         
         return prev
 
