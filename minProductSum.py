@@ -1,4 +1,5 @@
 #https://leetcode.com/problems/minimize-product-sum-of-two-arrays/
+#Med
 
 class Solution(object):
     def minProductSum(self, nums1, nums2):
