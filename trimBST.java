@@ -20,7 +20,6 @@ Return the root of the trimmed binary search tree. Note that the root may change
 https://leetcode.com/problems/trim-a-binary-search-tree/
  */
 
-
 class Solution {
     public TreeNode trimBST(TreeNode root, int low, int high) {
         if (root == null) return root; //if root null return null
