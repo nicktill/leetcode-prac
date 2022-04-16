@@ -10,8 +10,13 @@ public class Solution {
         int maxarea = 0, l = 0, r = height.length - 1;
         
         while (l < r) {
-            int frameMax = Math.min(height[l], height[r]) * (r - l);
+            //maxArea is minHeight of two pillars, times their distance
+            //use Math.min of two idx, and multiply by idxs distance
+            int frameMax = Math.min(height[l], height[r]) * (r-l); 
+            //check if maxArea is now higher
             maxarea = Math.max(maxarea, frameMax);
+            //whichever pillar is lower gets moved inward in order to calculate next 
+            //potential max value
             if (height[l] < height[r])
                 l++;
             else
