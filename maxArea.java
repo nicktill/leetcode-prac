@@ -3,6 +3,8 @@
 // Return the maximum amount of water a container can store.
 // Notice that you may not slant the container.
 //LC Med https://leetcode.com/problems/container-with-most-water/
+
+// optimal solution (using high low) 60/60 test cases passed
 public class Solution {
     public int maxArea(int[] height) {
         int maxarea = 0, l = 0, r = height.length - 1;
@@ -18,7 +20,7 @@ public class Solution {
         return maxarea;
     }
 }
-// Unoptimized (time limit exceeded)
+// Unoptimized (time limit exceeded) 55 / 60 test cases passed.
 // class Solution {
 //     public int maxArea(int[] height) {
 //         int currMax =0;
