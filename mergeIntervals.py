@@ -1,5 +1,5 @@
 class Solution:
-#[1,4] [4,7] => [1,7]
+#[1,3] [2,6] => [1,6]
       def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if len(intervals) == 0: 
             return [] 
