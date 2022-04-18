@@ -1,6 +1,5 @@
 class Solution:
-#salesforce tableu LC med question
-#1:4, 5:9, 10:14 => 1:14
+#[1,4] [4,7] => [1,7]
       def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if len(intervals) == 0: 
             return [] 
