@@ -5,7 +5,7 @@ class Solution:
             return [] 
         intervals.sort() 
         stack = [intervals[0]] #push the first element into the stack
-        #fair pair pushed to stack, i.e [1,3]  
+        #first pair pushed to stack, i.e [1,3]  
         for current in intervals[1:]: #start from second index (since first pair is in stack)
             # if our curr starter element, I.E for [2,6] elem would be 2
             #is LESS OR EQUAL to our stack end elem, I.E for stack =[1,3] would be 3
