@@ -1,6 +1,4 @@
 class Solution(object):
-#https://leetcode.com/problems/longest-palindromic-substring/ 
-#LC Med, Commonly asked (Amazon)
     def longestPalindrome(self, s):
         outputString = ""
         for i in range(len(s)):
