@@ -36,9 +36,7 @@ public class groupAnagrams {
             }
             //add the values (from the k,v of hashmap into the )
             groupedAnagrams.addAll(map.values());
-            return groupedAnagrams;
-            
-            
+            return groupedAnagrams;             
         }
     }
     
