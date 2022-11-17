@@ -1,0 +1,1 @@
+It is clear that Notion has a strong commitment to its employees, and for me personally working for a company that has strong moral standards for its people is crucial. I consider this opportunity at Notion to be a fantastic opportunity to start my career and fully apply my abilities to a service I strongly believe in that being Fintech.
