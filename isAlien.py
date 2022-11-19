@@ -7,6 +7,9 @@ class Solution(object):
         """
         # Create a dictionary for the order of the alien alphabet
         alien_dict = {}
+        #maps all characters
+        #i,e order = abcdefghijklmnopqrstuvwxyz 
+        #alien_dict = {'a':0, 'b':1, 'c':2, 'd':3, 'e':4, 'f':5, 'g':6, 'h':7, 'i':8, 'j':9, 'k':10, 'l':11, 'm':12, 'n':13, 'o':14, 'p':15, 'q':16, 'r':17, 's':18, 't':19, 'u':20, 'v':21, 'w':22, 'x':23, 'y':24, 'z':25}
         for i in range(len(order)):
             alien_dict[order[i]] = i
         
@@ -25,7 +28,7 @@ class Solution(object):
                 elif alien_dict[word1[j]] > alien_dict[word2[j]]:
                     return False
         #otherwise return true 
-        return True#set dictionary mapping keys
+        return True #set dictionary mapping keys
         
     
 
